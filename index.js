@@ -22,7 +22,7 @@ const proxy = createProxyMiddleware({
 
 app.use('/', proxy);
 
-const port = process.env.PORT || 443;
+const port = process.env.PORT || 53;
 app.listen(port, () => {
   console.log(`CybriaGG is running on port ${port}`);
 });
